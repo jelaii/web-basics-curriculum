@@ -5,5 +5,7 @@ This lesson intends to teach kids to make a website from scratch using HTML, CSS
 The objective is for students to gain some insight into how websites work and how simple it can be to create one. The lesson is designed so that students can continue to work on it if we run out of class time. Students should be encourage to spend time exploring and testing out different things. 
 
 ## TODO
-- We still don't have a clear plan for a JS example. 
-- The contact form idea brings up a few challenges with sending email but using a service such as [Formspree](https://formspree.io/) may work. 
+- Explain the contact form example and the form tag
+- Add challenge 3: create a form
+- Add more spacing between sections
+- Add Nuvi at the end of the lesson 

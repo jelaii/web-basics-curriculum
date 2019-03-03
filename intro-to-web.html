@@ -1,49 +1,58 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <link rel='shortcut icon' type='image/x-icon' href='img/nuevo-icon.ico' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
     <title>Nuevo Foundation Web Course</title>
   </head>
   <body>
-      <div class="container">
+      <div class="container-fluid">
           
-          <h1 class="display-1 mt-5">Let's build a website</h1>
-          <p class="lead">An introductory guide on how to make a simple website from scratch.</p>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-7">
+                      <h1 class="display-1 mt-5">Let's build a website</h1>
+                      <p class="lead">An introductory guide on how to make a simple website from scratch.</p>
+                  </div>
+                  <div class="col-sm-5">
+                    <img src="img/nuvi.jpg" class="rounded mt-5 d-block"/>
+                  </div>
+              </div>
+          </div>
+          <hr>
           
-          <div id="intro">   
+          <div class="container" id="intro">
               <div class="jumbotron">
                   <img src="img/meet-benji-sm.jpg" class="rounded mx-auto d-block">
                   <h5 class="display-4 text-center">Meet Benji</h5>
                   <p class="lead">Benji was born in Houston, Texas. Soon after Benji was born, a devastating hurricane hit Houston. Hurricane Harvey displaced more than 30,000 people, including Benji’s family. Benji can’t speak human so we don’t know the details. All we know is that Benji is looking for a home and is committed to be a good boy wherever he goes. He is looking for his forever home. Let’s make a website so we can share his information!</p>
               </div>
- 
+
               <h2>Basics first. What is a website?</h2>
-              
+
               <p>A website is just a page that can be found in the internet. It is displayed through a browser when you type the address (aka unique name) on the address bar.</p>
               <img src="https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&height=521&cropmode=none" width="660" height="521"  class="rounded mx-auto d-block"  />
-              
+
               <br>
-              
+
               <h2>Parts of a website</h2>
               <p>There are common website elements such as navigation bars, footers, search bars, and contact form.  </p>
               <img src="https://1muzpa.dm.files.1drv.com/y4mkCFbsozyUfEeD_QatKv6bgaph72ddGBBP9YjhPjrWxBllFh6ypDGoEzakDBuFGEsk-VG3kjJYxmqA9Ok8CH9qdsEdQqT30gYIWnz0KjMpFoZZoxvtbKrH7eGD62VTC-N1I67uXfg-LTP9Q4T6IPwKeHBoqzy63rSKjSFAQKg6dphSN3zW5GrS30sbR16vMStjfZaycgBqtMJBbMpj3EW_Q?width=2187&height=1323&cropmode=none" width="1094" height="662" />
-              
+
               <br>
-              
+
               <h2>Website design</h2>
               <p>The first step in making a website is to decide which elements we want and how they will look. This process is called layout design and it’s just a rough sketch of how the different pieces are going to come together. There are many tools to help you do this, but the oldest and one of the most popular is good ol’ pen and paper. Here’s how I sketched mine:</p>
               <img src="img/dog-layout-sm.png" class="mx-auto d-block"/> 
               <p>Note that the sketch is just a guideline. It’s okay to change things around as we start putting it together. A good rule of thumb is to start as simple as possible.</p>
               <br>
+              
           </div>
           
-          <div>
+          
+          <div class="container">
               <h2>Putting it together</h2>
               <h3>Label the parts with HTML</h3>
               <p>For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for <strong>Hypertext Markup Language</strong>. For example, the <strong>&lt;img&gt;</strong> tag, tells your browser “this is an image.” The <strong>&lt;button&gt;</strong> tag tells it “this is a button”</p>
@@ -52,157 +61,158 @@
               
               <p>Most tags need and opening tag and a closing tag. For example, you will see all pages have an &lt;html&gt; opening tag at the top, and a closing &lt;/html&gt; tag at the end. This tells the browser where the HTML elements start and where they end. There are a few tags, like the image tag, that are self-closing, meaning that they don’t need a second tag to close.</p>
               <p>Here is an example:</p>
-          
-          </div>
-
-          <div id="html-codepen">
-              <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ErRraG" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="HTML Basics">
-                  <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ErRraG/">
-                  HTML Basics</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
-                  on <a href="https://codepen.io">CodePen</a>.</span>
-                </p>
-              <h6>The HTML tab shows the code and the Result tab shows how the output look on a web browser.</h6>
-          </div>
-          <br>
-          
-          <div class="exercise-box">
-            <h2>Challenge 1</h2>
-            <ol>
-                <li>Open the web editor</li>  
-                <li>Using HTML tags write a title and a paragraph about Benji</li>
-                <li>Extra credit: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese</li>
-            </ol>
-            <a class="m-2 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
-          </div> 
-          
-          <p>Use this reference chart to try some html tags on your own.</p>
-          <table class="table table-striped table-hover">
-              <thead>
-                <tr>
-                  <th scope="col">Tag</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Example</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">&lt;html&gt;&lt;/html&gt;</th>
-                  <td>Describes an HTML Document</td>
-                  <td>See the Code Pen example above</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;!-- --&gt;</th>
-                  <td>Describes a comment. Comments are meant for other coders to see but they are not displayed in the website.</td>
-                  <td>&lt;!-- This line will now show in the browser --&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;head&gt;&lt;/head&gt;</th>
-                  <td>Has information about the website for the browser to display things correctly. It also has information like the tittle you see on each of the browser tabs. </td>
-                  <td>&lt;head&gt;
-                      &lt;title&gt;My website&lt;/title&gt;
-                      &lt;/head&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;body&gt;&lt;/body&gt;</th>
-                  <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
-                  <td>See the Code Pen example above</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;h1&gt;&lt;/h1&gt; <br>... <br>&lt;h6&gt;&lt;/h6&gt;</th>
-                  <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
-                  <td>&lt;h1&gt;This will be a big title&lt;/h1&gt;<br>
-                    &lt;h4&gt;This will be a smaller title&lt;/h4&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;p&gt;&lt;/p&gt;</th>
-                  <td>Describres a paragraph</td>
-                  <td>&lt;p&gt;Dogs evolved to love humans. In conclusion, dogs are human’s best friend. &lt;/p&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;div&gt;&lt;/div&gt;</th>
-                  <td>Defines a division or section on the site.</td>
-                  <td>&lt;div&gt;&lt;h1&gt;All about me&lt;/h1&gt;&lt;/div&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;img&gt;</th>
-                  <td>An image. It’s a self-closing tag but you must specify the source for the browser to know where to get the image from.</td>
-                  <td>&lt;img src="dog-picture.png"&gt;</td>
-                </tr>
-                <tr>
-                  <th scope="row">&lt;hr&gt;</th>
-                  <td>Draws a horizontal line. Another self-closing tag that’s useful if you want to break the page’s content.</td>
-                  <td>&lt;!-- section 1 --&gt; &lt;hr&gt; &lt;!-- section 2 --&gt;</td>
-                </tr>
-              </tbody>
-            </table>
-          <br>
-          
-          <h2>Style it</h2>
-          <p>Tags tell the browser what each website element is. But we also need to tell it how to display it. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or <strong>Cascading Style Sheets.</strong></p>
-          
-          <h3>HTML Attributes</h3>
-          <p>Each tag can also have additional information. For example, image tags need to have a source, so the browser knows where to go get the image from. We can also have style attributes that tell the browser the size of an element, the color, etc.</p>
-          
-          <p>Here is an example:</p>
-          <img src="img/attribute-sm.png">
-          
-          <p>Some common attributes are size, color, and font. Notice that attributes go inside the opening tag and have a notation <code>atribute-name="value in quotes"</code></p>
-          
-          <h3>Cascading Style Sheets (CSS)</h3>
-          <p>HTML attributes are straight forward but they can become messy quickly. If we have a lot of styling we want to do, the HTML lines can become long and hard to read. Furthermore, what if we want to style many elements the same way? We would have to copy all attributes for each element, which is not efficient and prone to making a mistake. For most styling, it’s better to use CSS.</p>
-          <p>CSS files work closely with HTML tags. Each HTML tag can have a class attribute and/or an id attribute that the CSS file uses to know how to display each element.</p>
-          <p>See this example below:</p>
-          <div id="css-codepen">
-            <p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up">
-              <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/">
-              Styling it up</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
-              on <a href="https://codepen.io">CodePen</a>.</span>
-            </p>
-          </div>
-          <p>The first line we have a div with a class called "important-section" all elements with <code>class="important-section"</code> will have the same color. We can also style a type of tag. In the header block of the CSS file, we tell the browser to color all headers #0097A7, which evaluates to teal. In CSS, the syntax (way of writing a particular language) is to write what you want to style inside curly braces. Inside the curly braces, each line ends with a semicolon.</p>
-          
-          <p>There are way too many style elements to cover them all. The best way to go about this is by using the sketch you made earlier to search online for ways on how to accomplish it with CSS.</p>
-          <img src="img/web-search.gif">
-          
-          <div class="card w-75 my-2">
-              <div class="card-body">
-                <h5 class="card-title">A note on color</h5>
-                  <p class="card-text">While CSS understands 140 color names such as green, red, and blue, this can be limiting. What about if we want a dark green, or a slightly lighter green? To achieve this, we can also refer to colors in hexadecimal or RGB form. Check <a href="https://htmlcolorcodes.com/color-names/" target="_blank">this link</a> to see the colors and their name in hexadecimal</p>
+              
+               <div id="html-codepen">
+                  <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ErRraG" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="HTML Basics">
+                      <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ErRraG/">
+                      HTML Basics</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
+                      on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                  <h6>The HTML tab shows the code and the Result tab shows how the output look on a web browser.</h6>
               </div>
+              <br>
+
+              <div class="exercise-box">
+                <h2>Challenge 1</h2>
+                <ol>
+                    <li>Open the web editor</li>  
+                    <li>Using HTML tags write a title and a paragraph about Benji</li>
+                    <li>Extra credit: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese</li>
+                </ol>
+                <a class="m-2 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
+              </div>
+              <p>Use this reference chart to try some html tags on your own.</p>
+              <table class="table table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Tag</th>
+                      <th scope="col">Description</th>
+                      <th scope="col">Example</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">&lt;html&gt;&lt;/html&gt;</th>
+                      <td>Describes an HTML Document</td>
+                      <td>See the Code Pen example above</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;!-- --&gt;</th>
+                      <td>Describes a comment. Comments are meant for other coders to see but they are not displayed in the website.</td>
+                      <td>&lt;!-- This line will now show in the browser --&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;head&gt;&lt;/head&gt;</th>
+                      <td>Has information about the website for the browser to display things correctly. It also has information like the tittle you see on each of the browser tabs. </td>
+                      <td>&lt;head&gt;
+                          &lt;title&gt;My website&lt;/title&gt;
+                          &lt;/head&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;body&gt;&lt;/body&gt;</th>
+                      <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
+                      <td>See the Code Pen example above</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;h1&gt;&lt;/h1&gt; <br>... <br>&lt;h6&gt;&lt;/h6&gt;</th>
+                      <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
+                      <td>&lt;h1&gt;This will be a big title&lt;/h1&gt;<br>
+                        &lt;h4&gt;This will be a smaller title&lt;/h4&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;p&gt;&lt;/p&gt;</th>
+                      <td>Describres a paragraph</td>
+                      <td>&lt;p&gt;Dogs evolved to love humans. In conclusion, dogs are human’s best friend. &lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;div&gt;&lt;/div&gt;</th>
+                      <td>Defines a division or section on the site.</td>
+                      <td>&lt;div&gt;&lt;h1&gt;All about me&lt;/h1&gt;&lt;/div&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;img&gt;</th>
+                      <td>An image. It’s a self-closing tag but you must specify the source for the browser to know where to get the image from.</td>
+                      <td>&lt;img src="dog-picture.png"&gt;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">&lt;hr&gt;</th>
+                      <td>Draws a horizontal line. Another self-closing tag that’s useful if you want to break the page’s content.</td>
+                      <td>&lt;!-- section 1 --&gt; &lt;hr&gt; &lt;!-- section 2 --&gt;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              <br>
+              
+              <h2>Style it</h2>
+              <p>Tags tell the browser what each website element is. But we also need to tell it how to display it. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or <strong>Cascading Style Sheets.</strong></p>
+          
+              <h3>HTML Attributes</h3>
+              <p>Each tag can also have additional information. For example, image tags need to have a source, so the browser knows where to go get the image from. We can also have style attributes that tell the browser the size of an element, the color, etc.</p>
+          
+              <p>Here is an example:</p>
+              <img src="img/attribute-sm.png">
+          
+              <p>Some common attributes are size, color, and font. Notice that attributes go inside the opening tag and have a notation <code>atribute-name="value in quotes"</code></p>
+          
+              <h3>Cascading Style Sheets (CSS)</h3>
+              <p>HTML attributes are straight forward but they can become messy quickly. If we have a lot of styling we want to do, the HTML lines can become long and hard to read. Furthermore, what if we want to style many elements the same way? We would have to copy all attributes for each element, which is not efficient and prone to making a mistake. For most styling, it’s better to use CSS.</p>
+              <p>CSS files work closely with HTML tags. Each HTML tag can have a class attribute and/or an id attribute that the CSS file uses to know how to display each element.</p>
+              <p>See this example below:</p>
+              <div id="css-codepen">
+                  <p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up">
+                      <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/"> Styling it up</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) on <a href="https://codepen.io">CodePen</a>.</span></p>
+              </div>
+              
+              <p>The first line we have a div with a class called "important-section" all elements with <code>class="important-section"</code> will have the same color. We can also style a type of tag. In the header block of the CSS file, we tell the browser to color all headers #0097A7, which evaluates to teal. In CSS, the syntax (way of writing a particular language) is to write what you want to style inside curly braces. Inside the curly braces, each line ends with a semicolon.</p>
+              
+              <p>There are way too many style elements to cover them all. The best way to go about this is by using the sketch you made earlier to search online for ways on how to accomplish it with CSS.</p>
+              <img src="img/web-search.gif">
+              
+              <div class="card w-75 my-2">
+                  <div class="card-body">
+                      <h5 class="card-title">A note on color</h5>
+                      <p class="card-text">While CSS understands 140 color names such as green, red, and blue, this can be limiting. What about if we want a dark green, or a slightly lighter green? To achieve this, we can also refer to colors in hexadecimal or RGB form. Check <a href="https://htmlcolorcodes.com/color-names/" target="_blank">this link</a> to see the colors and their name in hexadecimal</p>
+                  </div>
+              </div>
+              <br>
+              
+              <div class="exercise-box">
+                <h2>Challenge 2</h2>
+                <ol>
+                    <li>Using the editor window from the prior exercise, add id attributes to your tags</li>  
+                    <li>Toggle to the CSS tab and add style</li>
+                    <li>Change the title color</li>
+                    <li>Change the font to <code>"Trebuchet MS", Helvetica, sans-serif</code></li>
+                </ol>
+              </div>
+              
+              <h2>Add a video</h2>
+          
+              <p>Aside from text and images, one of the most common things we like to add to websites is video. Video files are very large, so it’s best to use a service to upload and display such as YouTube. Once uploaded, the video is in YouTube, so how do we get it to play on our website? We use a special tag called iframe.</p>
+
+              <p>Iframes display html from other websites inside our own. It’s like a window, where you can see what is happening outside on the internet from inside the current website. This process is called embedding.</p>
+
+              <p>For example, the video below is an iframe from Benji’s Instragram:</p>
+              
+              <div id="video-example ">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Push yourself to try new things! 🍉 I stick to the paleo diet most days (usually just the meat part) but on occasion I go for something crazy</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/benjimite_thegudboi/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Benji Escobari Marquez</a> (@benjimite_thegudboi) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-08-26T05:05:39+00:00">Aug 25, 2018 at 10:05pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+              </div>
+              
+              <p>Many sites offer iframes to embed in your website. As an example, here is how you find the iframe code for a YouTube video:</p>
+              <img src="img/get-iframe.gif">
+              <br>
+          
+              <h2>Add a contact form</h2>
+              <p>Finally, we will add a contact form to let people reach us if they are interested in Benji.</p>
+              <p>Most browsers do not support sending emails directly from the contact form because it is an easy way for trouble makers to send spam to users. Spam is an irrelevant or inappropriate message sent over the internet. Therefore, to send a form we will use a free service called <a href="https://formspree.io/" target="_blank">FormSpree</a>. If we want the messages in the contact form to go to our email, we first will need to confirm it with FormSpree. This confirmation method keeps bad actors from just putting down anyone’s email in a contact form and spamming them.</p>
+              
+              <p class="codepen" data-height="607" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ywJggd" style="height: 607px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Contact Form">
+              <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ywJggd/">
+              Contact Form</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>    
+              <br>
           </div>
-          <br>
-          
-          <div class="exercise-box">
-            <h2>Challenge 2</h2>
-            <ol>
-                <li>Using the editor window from the prior exercise, add id attributes to your tags</li>  
-                <li>Toggle to the CSS tab and add style</li>
-                <li>Change the title color</li>
-                <li>Change the font to <code>"Trebuchet MS", Helvetica, sans-serif</code></li>
-            </ol>
-          </div> 
-          
-          <h2>Add a video</h2>
-          
-          <p>Aside from text and images, one of the most common things we like to add to websites is video. Video files are very large, so it’s best to use a service to upload and display such as YouTube. Once uploaded, the video is in YouTube, so how do we get it to play on our website? We use a special tag called iframe.</p>
-          
-          <p>Iframes display html from other websites inside our own. It’s like a window, where you can see what is happening outside on the internet from inside the current website. This process is called embedding.</p>
-          
-          <p>For example, the video below is an iframe from Benji’s Instragram:</p>
-          <div id="video-example ">
-            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Push yourself to try new things! 🍉 I stick to the paleo diet most days (usually just the meat part) but on occasion I go for something crazy</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/benjimite_thegudboi/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Benji Escobari Marquez</a> (@benjimite_thegudboi) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-08-26T05:05:39+00:00">Aug 25, 2018 at 10:05pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-          </div>
-          
-          <p>Many sites offer iframes to embed in your website. As an example, here is how you find the iframe code for a YouTube video:</p>
-          <img src="img/get-iframe.gif">
-          <br>
-          
-          <h2>Add a contact form</h2>
-          <p>Finally, we will add a contact form to let people reach us if they are interested in Benji.</p>
-          <div id="contact-form">
-          TODO
-          </div>
-          <br>
       </div>
 
     
