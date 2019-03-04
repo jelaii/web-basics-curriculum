@@ -6,5 +6,5 @@ The objective is for students to gain some insight into how websites work and ho
 
 ## TODO
 - Explain the contact form example and the form tag
-- Add more spacing between sections
-- Add Nuvi at the end of the lesson 
+- Test the lesson flow
+- Consider adding a place where people can share their projects
