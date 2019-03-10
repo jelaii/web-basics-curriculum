@@ -7,6 +7,17 @@
     border-radius: .5em;
 }
 
+.exercise-box img
+{
+    width: 30rem;
+}
+
+#color-card
+{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../img/colorful.jpg");
+
+}
+
 #footer-img
 {
     height: 4em;

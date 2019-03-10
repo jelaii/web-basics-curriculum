@@ -179,17 +179,17 @@
                             <p>HTML attributes are straight forward but they can become messy quickly. If we have a lot of styling we want to do, the HTML lines can become long and hard to read. Furthermore, what if we want to style many elements the same way? We would have to copy all attributes for each element, which is not efficient and prone to making a mistake. For most styling, it’s better to use CSS.</p>
                             <p>CSS files work closely with HTML tags. Each HTML tag can have a class attribute and/or an id attribute that the CSS file uses to know how to display each element.</p>
                             <p>See this example below:</p>
-                            <div id="css-codepen">
+                            <div id="css-codepen" class="mb-4">
                                 <p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up">
                                     <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/"> Styling it up</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) on <a href="https://codepen.io">CodePen</a>.</span></p>
                             </div>
 
-                            <p>The first line we have a div with a class called "important-section" all elements with <code>class="important-section"</code> will have the same color. We can also style a type of tag. In the header block of the CSS file, we tell the browser to color all headers #0097A7, which evaluates to teal. In CSS, the syntax (way of writing a particular language) is to write what you want to style inside curly braces. Inside the curly braces, each line ends with a semicolon.</p>
+                            <p>In the first line we have a div with a class called <code>important-section</code>. All elements with <code>class="important-section"</code> will have the same color. We can also style a type of tag. In the header block of the CSS file, we tell the browser to color all headers #0097A7, which evaluates to teal. In CSS, the syntax (way of writing a particular language) is to write what you want to style inside curly braces. Inside the curly braces, each line ends with a semicolon.</p>
 
                             <p>There are way too many style elements to cover them all. The best way to go about this is by using the sketch you made earlier to search online for ways on how to accomplish it with CSS.</p>
                             <img src="img/web-search.gif">
 
-                            <div class="card w-75 my-2">
+                            <div id="color-card" class="card w-75 mx-auto my-2">
                                 <div class="card-body">
                                     <h5 class="card-title">A note on color</h5>
                                     <p class="card-text">While CSS understands 140 color names such as green, red, and blue, this can be limiting. What about if we want a dark green, or a slightly lighter green? To achieve this, we can also refer to colors in hexadecimal or RGB form. Check <a href="https://htmlcolorcodes.com/color-names/" target="_blank">this link</a> to see the colors and their name in hexadecimal</p>
@@ -210,6 +210,43 @@
                         </div>
 
                         <div class="my-4" id="media">
+                            <h2>Add a GIF</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col sm-10">
+                                        <p>GIF stands for Graphic Interchange Format, but all you need to know if that it's just another type of image file. The only difference is that the file has many images. When displayed on the browser they are played in sequence, similar to frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.</p>
+
+
+                                    </div>
+                                    <div class="col sm-2">
+                                        <img src="img/flipbook.gif" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exercise-box">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <h2>Challenge 3</h2>
+                                        </div>
+                                        <div class="col-9">
+                                            <img src="img/nuvi-giphy.gif" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ol>
+                                    <li>Add Nuvi to your website. See steps below.</li>
+                                    <li><a href="https://giphy.com/nuevofoundation">Follow this link</a> to see the available GIFs</li>
+                                    <li>Click on the one you like and select "Embed" <br>
+                                        <img src="img/nuevo-.png" /></li>
+                                    <li>Copy the code from the white box below "GIF Embed Code"<br>
+                                        <img src="img/giphy-embed-instruction.PNG" />
+                                    </li>
+                                </ol>
+                            </div>
+
                             <h2>Add a video</h2>
 
                             <p>Aside from text and images, one of the most common things we like to add to websites is video. Video files are very large, so it’s best to use a service to upload and display such as YouTube. Once uploaded, the video is in YouTube, so how do we get it to play on our website? We use a special tag called iframe.</p>
@@ -282,7 +319,7 @@
 
 
                         <div class="exercise-box">
-                            <h2>Challenge 3</h2>
+                            <h2>Challenge 4</h2>
                             <ol>
                                 <li>Copy the <strong>"contact-section"</strong> in the example above and paste it in your own project</li>
                                 <li>Change the part that says <code>YOUR EMAIL HERE!</code> to your personal email if you have one</li>
