@@ -93,92 +93,114 @@
                                 </p>
                                 <h6>The HTML tab shows the code, while the Result tab shows how the output look on a web browser.</h6>
                             </div>
+
+
+                            <div class="exercise-box">
+                                <h2>Challenge 1</h2>
+                                <ol>
+                                    <li>Open the web editor</li>
+                                    <li>Using HTML tags write a title and a paragraph about Benji</li>
+                                    <li>Extra credit: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese</li>
+                                </ol>
+                                <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
+                            </div>
+                            <p>Use this reference chart to try some html tags on your own.</p>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tag</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">&lt;html&gt;&lt;/html&gt;</th>
+                                        <td>Describes an HTML Document.</td>
+                                        <td>See the Code Pen example above.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;!-- --&gt;</th>
+                                        <td>Describes a comment. Comments are meant for other coders to see but they are not displayed on the website.</td>
+                                        <td>&lt;!-- This line will now show in the browser --&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;head&gt;&lt;/head&gt;</th>
+                                        <td>Has information about the website for the browser to display things correctly. It also has information like the title you see on each of the browser tabs.</td>
+                                        <td>&lt;head&gt;
+                                            &lt;title&gt;My website&lt;/title&gt;
+                                            &lt;/head&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;body&gt;&lt;/body&gt;</th>
+                                        <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
+                                        <td>See the Code Pen example above.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;h1&gt;&lt;/h1&gt; <br>... <br>&lt;h6&gt;&lt;/h6&gt;</th>
+                                        <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
+                                        <td>&lt;h1&gt;This will be a big title&lt;/h1&gt;<br>
+                                            &lt;h4&gt;This will be a smaller title&lt;/h4&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;p&gt;&lt;/p&gt;</th>
+                                        <td>Describes a paragraph.</td>
+                                        <td>&lt;p&gt;Dogs evolved to love humans. In conclusion, dogs are a human’s best friend. &lt;/p&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;div&gt;&lt;/div&gt;</th>
+                                        <td>Defines a division or section on the site.</td>
+                                        <td>&lt;div&gt;&lt;h1&gt;All about me&lt;/h1&gt;&lt;/div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;img&gt;</th>
+                                        <td>An image. It’s a self-closing tag but you must specify the source for the browser to know where to get the image from.</td>
+                                        <td>&lt;img src="dog-picture.png"&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;hr&gt;</th>
+                                        <td>Draws a horizontal line. Another self-closing tag that’s useful if you want to break the page’s content.</td>
+                                        <td>&lt;!-- section 1 --&gt; &lt;hr&gt; &lt;!-- section 2 --&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;ul&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;</th>
+                                        <td>A list. To create the list, add a &lt;ul&gt; tag. To add an item to the list, add a new &lt;li&gt; tag with the text between the opening and closing tags.</td>
+                                        <td>&lt;ul&gt;<br>&lt;li&gt; This is a list item.&lt;/li&gt;<br>&lt;/ul&gt;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+
+                            <hr>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3>HTML Attributes</h3>
+                                        <p>Each tag can also have additional information. For example, image tags need to have a source, so we need an attribute to tell the browser where to go get the image from.</p>
+
+                                    </div>
+                                </div>
+                                <div class="row my-4">
+                                    <div class="col">
+                                        <p>Here is an example:</p>
+
+                                        <img src="img/attribute-sm.png" class="mx-auto d-block" />
+                                        <p>Results in this:</p>
+                                        <img src="https://qyatda.dm.files.1drv.com/y4mTmthbnZl8R4dmLmzkmrlFe1Wg8V1YoXSQp0JIvJJQgPK_IC6O3oWMQXXqUH386u9cNsKg-8kUV8ec4_TvC5eUFUrgkdZeRHJ95uQ0nUbgO_BO3_33cWBUkS9KUqvZhSDYcn9h037DYIPnmUerzBJ1XyjbhSseOhdpDJXya8Cn__51WxOdTygEpsC9NA4NriAZXjTizgUsiNu1qYIo-1B7w?width=495&height=660&cropmode=none" width="495" height="660" class="rounded mx-auto d-block" />
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <p>We can also have style attributes that tell the browser the size of an element, the color, etc. Some common attributes are size, color, and font. Notice that attributes go inside the opening tag and have a notation <code>attribute-name="value in quotes"</code>.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
-
-                        <div class="exercise-box">
-                            <h2>Challenge 1</h2>
-                            <ol>
-                                <li>Open the web editor</li>
-                                <li>Using HTML tags write a title and a paragraph about Benji</li>
-                                <li>Extra credit: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese</li>
-                            </ol>
-                            <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
-                        </div>
-                        <p>Use this reference chart to try some html tags on your own.</p>
-                        <table class="table table-striped table-hover">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Tag</th>
-                                    <th scope="col">Description</th>
-                                    <th scope="col">Example</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">&lt;html&gt;&lt;/html&gt;</th>
-                                    <td>Describes an HTML Document.</td>
-                                    <td>See the Code Pen example above.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;!-- --&gt;</th>
-                                    <td>Describes a comment. Comments are meant for other coders to see but they are not displayed on the website.</td>
-                                    <td>&lt;!-- This line will now show in the browser --&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;head&gt;&lt;/head&gt;</th>
-                                    <td>Has information about the website for the browser to display things correctly. It also has information like the title you see on each of the browser tabs.</td>
-                                    <td>&lt;head&gt;
-                                        &lt;title&gt;My website&lt;/title&gt;
-                                        &lt;/head&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;body&gt;&lt;/body&gt;</th>
-                                    <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
-                                    <td>See the Code Pen example above.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;h1&gt;&lt;/h1&gt; <br>... <br>&lt;h6&gt;&lt;/h6&gt;</th>
-                                    <td>Contains all the html elements that are displayed in the page like text and pictures.</td>
-                                    <td>&lt;h1&gt;This will be a big title&lt;/h1&gt;<br>
-                                        &lt;h4&gt;This will be a smaller title&lt;/h4&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;p&gt;&lt;/p&gt;</th>
-                                    <td>Describes a paragraph.</td>
-                                    <td>&lt;p&gt;Dogs evolved to love humans. In conclusion, dogs are a human’s best friend. &lt;/p&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;div&gt;&lt;/div&gt;</th>
-                                    <td>Defines a division or section on the site.</td>
-                                    <td>&lt;div&gt;&lt;h1&gt;All about me&lt;/h1&gt;&lt;/div&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;img&gt;</th>
-                                    <td>An image. It’s a self-closing tag but you must specify the source for the browser to know where to get the image from.</td>
-                                    <td>&lt;img src="dog-picture.png"&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;hr&gt;</th>
-                                    <td>Draws a horizontal line. Another self-closing tag that’s useful if you want to break the page’s content.</td>
-                                    <td>&lt;!-- section 1 --&gt; &lt;hr&gt; &lt;!-- section 2 --&gt;</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">&lt;ul&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;</th>
-                                    <td>A list. To create the list, add a &lt;ul&gt; tag. To add an item to the list, add a new &lt;li&gt; tag with the text between the opening and closing tags.</td>
-                                    <td>&lt;ul&gt;<br>&lt;li&gt; This is a list item.&lt;/li&gt;<br>&lt;/ul&gt;</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <br>
-
-                        <h3>HTML Attributes</h3>
-                        <p>Each tag can also have additional information. For example, image tags need to have a source, so we need an attribute to tell the browser where to go get the image from.</p>
-
-                        <p>Here is an example:</p>
-                        <img src="img/attribute-sm.png">
-
-                        <p>We can also have style attributes that tell the browser the size of an element, the color, etc. Some common attributes are size, color, and font. Notice that attributes go inside the opening tag and have a notation <code>attribute-name="value in quotes"</code>.</p>
-
+                        <hr>
                         <div class="my-4" id="css-section">
                             <h2>Style it with CSS</h2>
                             <p>Tags tell the browser what website elements to use. But we also need to tell it how to display the elements, and where to place them. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or <strong>Cascading Style Sheets.</strong></p>
@@ -253,7 +275,7 @@
                                                 <li>Copy the code from the white box below "GIF Embed Code"<br>
                                                     <img src="img/giphy-embed-instruction.PNG" />
                                                 </li>
-                                                <li>Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags <img src="img/copypaste.png" /></li>
+                                                <li>Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags <img src="img/copypasta.png" /></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -264,6 +286,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <hr>
 
                             <h2>Add a video</h2>
 
@@ -322,7 +345,7 @@
 
                             <p>Many sites offer iframes to embed in your website. As an example, here is how you find the iframe code for a YouTube video:</p>
                             <img src="img/get-iframe.gif">
-
+                            <hr>
                             <div class="my-4">
                                 <h2>Add a contact form</h2>
                                 <p>Finally, we will add a contact form to let people reach us if they are interested in Benji.</p>
@@ -345,7 +368,7 @@
                             </ol>
                             <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/KEyGZo" target="_blank">Try it yourself!</a>
                         </div>
-
+                        <hr>
                         <h2 class="my-4">Time to freestyle it!</h2>
                         <div class="exercise-box">
                             <h2>Challenge 5</h2>
@@ -363,28 +386,28 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid">
-            <hr>
-            <div class="row justify-content-md-center">
-                <div class="col my-auto">
-                    <img src="img/nuvi.gif" id="footer-img" class="float-right">
+
+            <div class="container-fluid">
+                <hr>
+                <div class="row justify-content-md-center">
+                    <div class="col my-auto">
+                        <img src="img/nuvi.gif" id="footer-img" class="float-right">
+                    </div>
+                    <div class="col my-auto">
+                        <p class="font-weight-bolder text-muted text-left">Nuevo Foundation</p>
+                    </div>
                 </div>
-                <div class="col my-auto">
-                    <p class="font-weight-bolder text-muted text-left">Nuevo Foundation</p>
-                </div>
+
+
             </div>
-
-
         </div>
-    </div>
 
-    <script async src="//www.instagram.com/embed.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        <script async src="//www.instagram.com/embed.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </body>
 
 </html>
