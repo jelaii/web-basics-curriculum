@@ -169,7 +169,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <br>
+
 
                             <hr>
                             <div class="container">
@@ -229,6 +229,17 @@
                             <br>
                         </div>
 
+                        <div>
+                            <h4>Notice how we added a new font</h4>
+                            <ul>
+                                <li>First we imported the font at the top of the CSS file with this statement:<br>
+                                    <code>@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');
+                                    </code></li>
+                                <li>Then we assigned it to the body tag. Since this tag will contain all the other HTML elements, our choice of font will trickle down to all.<br><img src="img/bodytag.PNG" /> </li>
+                                <li>Notice that the format inside the curly braces is: <code>name: value;</code></li>
+                            </ul>
+                        </div>
+
                         <div class="exercise-box">
                             <h2>Challenge 2</h2>
                             <ol>
@@ -236,9 +247,31 @@
                                 <li>Toggle to the CSS tab and add style</li>
                                 <li>Change the title color</li>
                                 <li>Change the font to <code>"Trebuchet MS", Helvetica, sans-serif</code></li>
+                                <li>Here are some other fonts you can import: <br>
+                                    <ul>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</code><br>
+                                            <code>font-family: 'Roboto Mono', monospace;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Indie+Flower');</code><br>
+                                            <code>font-family: 'Indie Flower', cursive;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Pacifico');</code><br>
+                                            <code>font-family: 'Pacifico', cursive;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');</code><br>
+                                            <code>font-family: 'Permanent Marker', cursive;</code>
+                                        </li>
+                                    </ul>
+
+                                </li>
                             </ol>
                             <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Try it yourself!</a>
                         </div>
+
 
                         <div class="my-4" id="media">
                             <h1>Media Elements</h1>
@@ -246,7 +279,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col sm-10">
-                                        <p>GIF stands for Graphic Interchange Format, but all you need to know if that it's just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.</p>
+                                        <p>GIF stands for <strong>Graphic Interchange Format</strong>, but all you need to know if that it's just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.</p>
                                     </div>
                                     <div class="col sm-2">
                                         <img src="img/flipbook.gif" />
@@ -275,7 +308,7 @@
                                                 <li>Copy the code from the white box below "GIF Embed Code"<br>
                                                     <img src="img/giphy-embed-instruction.PNG" />
                                                 </li>
-                                                <li>Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags <img src="img/copypasta.png" /></li>
+                                                <li>Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags <img src="img/copy-pasta.PNG" /></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -361,8 +394,8 @@
                         <div class="exercise-box">
                             <h2>Challenge 4</h2>
                             <ol>
-                                <li>Copy the <strong>"contact-section"</strong> in the example above and paste it in your own project</li>
-                                <li>Change the part that says <code>&lt;YOUR EMAIL HERE!&gt;</code> to your personal email if you have one</li>
+                                <li>Click on the <strong>try it yourself!</strong> button to open the editor</li>
+                                <li>Change the part that says <code>&lt;YOUR EMAIL HERE!&gt;</code> to your personal email if you have one. If you don't, use <code>email@nuevofoundation.org</code></li>
                                 <li>If you do, try to send a test message and see if it works</li>
                                 <li>Add any styling using the example as guideline</li>
                             </ol>
